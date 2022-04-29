@@ -7,7 +7,8 @@ function Header(props) {
     setPatrickSelected,
     setJulietSelected,
     setHollySelected,
-    setMichaelSelected
+    setMichaelSelected,
+    setCandaceSelected
   } = props;
 
   return (
@@ -22,6 +23,7 @@ function Header(props) {
           setJulietSelected={setJulietSelected}
           setHollySelected={setHollySelected}
           setMichaelSelected={setMichaelSelected}
+          setCandaceSelected={setCandaceSelected}
         />
       </div>
     </header>

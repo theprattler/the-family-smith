@@ -6,7 +6,8 @@ function Navigation(props) {
     {name: 'Patrick'},
     {name: 'Juliet'},
     {name: 'Holly'},
-    {name: 'Michael'}
+    {name: 'Michael'},
+    {name: 'Candace'}
   ];
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const {
@@ -14,7 +15,8 @@ function Navigation(props) {
     setPatrickSelected,
     setJulietSelected,
     setHollySelected,
-    setMichaelSelected
+    setMichaelSelected,
+    setCandaceSelected
   } = props;
   const categorySelected = (name) => {
     if (name === 'Home') {
@@ -23,30 +25,42 @@ function Navigation(props) {
       setJulietSelected(false)
       setHollySelected(false)
       setMichaelSelected(false)
+      setCandaceSelected(false)
     } else if (name === 'Patrick') {
       setHomeSelected(false)
       setPatrickSelected(true)
       setJulietSelected(false)
       setHollySelected(false)
       setMichaelSelected(false)
+      setCandaceSelected(false)
     } else if (name === 'Juliet') {
       setHomeSelected(false)
       setPatrickSelected(false)
       setJulietSelected(true)
       setHollySelected(false)
       setMichaelSelected(false)
+      setCandaceSelected(false)
     } else if (name === 'Holly') {
       setHomeSelected(false)
       setPatrickSelected(false)
       setJulietSelected(false)
       setHollySelected(true)
       setMichaelSelected(false)
+      setCandaceSelected(false)
     } else if (name === 'Michael') {
       setHomeSelected(false)
       setPatrickSelected(false)
       setJulietSelected(false)
       setHollySelected(false)
       setMichaelSelected(true)
+      setCandaceSelected(false)
+    } else if (name === 'Candace') {
+      setHomeSelected(false)
+      setPatrickSelected(false)
+      setJulietSelected(false)
+      setHollySelected(false)
+      setMichaelSelected(false)
+      setCandaceSelected(true)
     }
   };
 

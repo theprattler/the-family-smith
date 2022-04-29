@@ -5,6 +5,7 @@ import Patrick from './components/Patrick';
 import Juliet from './components/Juliet';
 import Holly from './components/Holly';
 import Michael from './components/Michael';
+import Candace from './components/Candace';
 
 function App() {
   const [homeSelected, setHomeSelected] = useState(true);
@@ -12,6 +13,7 @@ function App() {
   const [julietSelected, setJulietSelected] = useState(false);
   const [hollySelected, setHollySelected] = useState(false);
   const [michaelSelected, setMichaelSelected] = useState(false);
+  const [candaceSelected, setCandaceSelected] = useState(false);
 
   return (
     <div>
@@ -21,18 +23,21 @@ function App() {
         setJulietSelected={setJulietSelected}
         setHollySelected={setHollySelected}
         setMichaelSelected={setMichaelSelected}
+        setCandaceSelected={setCandaceSelected}
       />
       <main>
-        {homeSelected && !patrickSelected && !julietSelected && !hollySelected && !michaelSelected ? (
+        {homeSelected && !patrickSelected && !julietSelected && !hollySelected && !michaelSelected && !candaceSelected ? (
           <Home />
-        ) : patrickSelected && !homeSelected && !julietSelected && !hollySelected && !michaelSelected ? (
+        ) : patrickSelected && !homeSelected && !julietSelected && !hollySelected && !michaelSelected && !candaceSelected ? (
           <Patrick />
-        ) : julietSelected && !homeSelected && !patrickSelected && !hollySelected && !michaelSelected ? (
+        ) : julietSelected && !homeSelected && !patrickSelected && !hollySelected && !michaelSelected && !candaceSelected ? (
           <Juliet />
-        ) : hollySelected && !homeSelected && !patrickSelected && !julietSelected && !michaelSelected ? (
+        ) : hollySelected && !homeSelected && !patrickSelected && !julietSelected && !michaelSelected && !candaceSelected ? (
           <Holly />
-        ) : (
+        ) : michaelSelected && !homeSelected && !patrickSelected && !julietSelected && !hollySelected && !candaceSelected ? (
           <Michael />
+        ) : (
+          <Candace />
         )}
       </main>
     </div>
