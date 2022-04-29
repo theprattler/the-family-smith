@@ -26,7 +26,7 @@ function Home() {
         </ul>
       </div>
       <div className='page-info-container'>
-        <h2>Greetings and Salutations from the Family Smith!</h2>
+        <h2>Greetings and Salutations from The Family Smith!</h2>
         <p>
           We have a lot of Stink between the five of us.
         </p>
