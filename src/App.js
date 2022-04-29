@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Home from './components/Home';
+import Patrick from './components/Patrick';
+import Juliet from './components/Juliet';
+import Holly from './components/Holly';
+import Michael from './components/Michael';
 
 function App() {
   const [homeSelected, setHomeSelected] = useState(true);

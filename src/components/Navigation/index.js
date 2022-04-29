@@ -51,7 +51,7 @@ function Navigation(props) {
   };
 
   useEffect(() => {
-    document.title = currentCategory.name;
+    document.title = 'The Family Smith: ' + currentCategory.name;
   }, [currentCategory]);
 
   return (
