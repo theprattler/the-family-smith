@@ -14,9 +14,6 @@ function Header(props) {
   return (
     <header>
       <div>
-        <h1>The Family Smith</h1>
-      </div>
-      <div>
         <Navigation
           setHomeSelected={setHomeSelected}
           setPatrickSelected={setPatrickSelected}

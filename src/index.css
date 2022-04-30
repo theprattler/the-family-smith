@@ -41,10 +41,10 @@ code {
 }
 
 header {
-  background-image: linear-gradient(to right, white, gray);
+  background-image: linear-gradient(to top, white, #dbdbdb);
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   position: sticky;
   z-index: 1001;
 }
@@ -58,7 +58,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.p-margin-top {
+  margin-top: 1em;
 }
 
 ul {
@@ -71,22 +75,27 @@ ul {
 
 nav ul li {
   font-size: 1.3rem;
-  padding-left: 1rem;
-  padding-top: 3.2rem;
+  padding-left: 2em;
+  padding-top: 2.3em;
+  padding-bottom: .3em;
 }
 
 nav ul li:hover {
   cursor: pointer;
+  font-weight: bolder;
+  transition: .3s;
 }
+
+/* HOME PAGE STYLING */
 
 .home-bg-slideshow,
 .home-bg-slideshow:after { 
     position: fixed;
-    width: 75%;
+    width: 70%;
     height: 100%;
     top: 0px;
     right: 0px;
-    z-index: 0; 
+    z-index: 0;
 }
 
 .home-bg-slideshow li span { 
@@ -101,53 +110,62 @@ nav ul li:hover {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 36s linear infinite 0s; 
+  animation: imageAnimation 35s linear infinite 0s;
+  -webkit-mask-image: -webkit-gradient(linear, right top, 
+    left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 .home-bg-slideshow li:nth-child(1) span { 
-  background-image: url(../src/assets/images/home/landing-page.png) 
+  background-image: url(../src/assets/images/home/at-the-beach.jpg) 
 }
 .home-bg-slideshow li:nth-child(2) span { 
-  background-image: url(../src/assets/images/home/login-handlebars.png);
-  animation-delay: 6s; 
+  background-image: url(../src/assets/images/home/ballet-recital.jpg);
+  animation-delay: 5s; 
 }
 .home-bg-slideshow li:nth-child(3) span { 
-  background-image: url(../src/assets/images/home/Screenshot-58.png);
-  animation-delay: 12s; 
+  background-image: url(../src/assets/images/home/dana-wedding.jpg);
+  animation-delay: 10s; 
 }
 .home-bg-slideshow li:nth-child(4) span { 
-  background-image: url(../src/assets/images/home/Screenshot-63.jpg);
-  animation-delay: 18s; 
+  background-image: url(../src/assets/images/home/karate.jpg);
+  animation-delay: 15s; 
 }
 .home-bg-slideshow li:nth-child(5) span { 
-  background-image: url(../src/assets/images/home/Screenshot-68.png);
-  animation-delay: 24s; 
+  background-image: url(../src/assets/images/home/merry-christmas.jpg);
+  animation-delay: 20s; 
 }
 .home-bg-slideshow li:nth-child(6) span { 
-  background-image: url(../src/assets/images/home/talkie-box.png);
+  background-image: url(../src/assets/images/home/north-carolina-bound.jpg);
+  animation-delay: 25s; 
+}
+.home-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/home/opryland-hotel.jpg);
   animation-delay: 30s; 
 }
 
 .home-bg-slideshow li:nth-child(2) div { 
-  animation-delay: 6s; 
+  animation-delay: 5s; 
 }
 .home-bg-slideshow li:nth-child(3) div { 
-  animation-delay: 12s; 
+  animation-delay: 10s; 
 }
 .home-bg-slideshow li:nth-child(4) div { 
-  animation-delay: 18s; 
+  animation-delay: 15s; 
 }
 .home-bg-slideshow li:nth-child(5) div { 
-  animation-delay: 24s; 
+  animation-delay: 20s; 
 }
 .home-bg-slideshow li:nth-child(6) div { 
+  animation-delay: 25s; 
+}
+.home-bg-slideshow li:nth-child(7) div { 
   animation-delay: 30s; 
 }
 
 @keyframes imageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
-  8% { opacity: .8; animation-timing-function: ease-out; }
-  17% { opacity: .8 }
+  8% { opacity: 1; animation-timing-function: ease-out; }
+  17% { opacity: 1 }
   25% { opacity: 0 }
   100% { opacity: 0 }
 }
@@ -156,13 +174,22 @@ nav ul li:hover {
 	opacity: 1;
 }
 
-.page-info-container {
+.home-info-container {
   position: absolute;
-  width: 25%;
-  height: 75%;
+  width: 35%;
+  height: 90%;
   bottom: 0px;
   left: 0px;
   z-index: 1000;
   opacity: 1;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3em;
+}
+
+.home-info-container::before {
+  right: -10px;
+  position: absolute;
+  z-index: 999;
 }

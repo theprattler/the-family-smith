@@ -23,13 +23,20 @@ function Home() {
           <li>
             <span>Image 06</span>
           </li>
+          <li>
+            <span>Image 07</span>
+          </li>
         </ul>
       </div>
-      <div className='page-info-container'>
-        <h2>Greetings and Salutations from The Family Smith!</h2>
-        <p>
-          We have a lot of Stink between the five of us.
-        </p>
+      <div className='home-info-container'>
+        <div>
+          <h2>Greetings and Salutations from The Family Smith!</h2>
+        </div>
+        <div>
+          <p className='p-margin-top'>
+            We are but four (plus one) stinky people living in Clayton, North Carolina. Michael and Holly married in 2008, and it has been nothing but pure marital bliss ever since. Two stinky but precious kids later, and a dang rotten cat to boot, we blaze the trail before us, seeking wild adventure and loving embraces. Want to get to know us better? Explore each of our pages.
+          </p>
+        </div>
       </div>
     </section>
   )
