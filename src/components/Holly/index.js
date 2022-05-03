@@ -2,10 +2,10 @@ import React from 'react';
 
 function Holly() {
   return (
-    <section>
-      <h2>Holly Rose</h2>
+    <section className='home-info-container'>
+      <h2 className='holly-h2'>Holly Rose</h2>
       <div>
-        <p>
+        <p className='holly-p'>
           Surrender your cheese to me.
           <br/>
           Seriously. I want all the cheese.

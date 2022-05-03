@@ -2,10 +2,10 @@ import React from 'react';
 
 function Candace() {
   return (
-    <section>
-      <h2>Candace Marie</h2>
+    <section className='home-info-container'>
+      <h2 className='candace-h2'>Candace Marie</h2>
       <div>
-        <p>
+        <p className='candace-p'>
           I like to bite bite bite bite bite.
           <br/>
           And grumple grumple grumple.

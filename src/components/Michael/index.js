@@ -2,10 +2,10 @@ import React from 'react';
 
 function Michael() {
   return (
-    <section>
+    <section className='home-info-container'>
       <h2>J(ohn) Michael</h2>
       <div>
-        <p>
+        <p className='p-margin-top'>
           I would like a taco. Or four.
           <br/>
           Hit me up with your favorite taco recipes.

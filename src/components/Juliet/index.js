@@ -2,13 +2,13 @@ import React from 'react';
 
 function Juliet() {
   return (
-    <section>
-      <h2>Juliet Monét</h2>
+    <section className='home-info-container'>
+      <h2 className='jules-h2'>Juliet Monét</h2>
       <div>
-        <p>
+        <p className='jules-p'>
           CHOCOLATE!!!
           <br/>
-          UNICORNS!!!
+          CONSTELLATIONS!!!
           <br/>
           BALLET!!!
         </p>

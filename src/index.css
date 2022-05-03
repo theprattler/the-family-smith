@@ -9,21 +9,16 @@
   --home-primary-color: gray;
   --home-secondary-color: black;
   --home-tertiary-color: green;
-  --patrick-primary-color: white;
+  --patrick-primary-color: #002868;
   --patrick-secondary-color: #bf0a30;
-  --patrick-secondary-color: #002868;
-  --jules-primary-color: pink;
-  --jules-secondary-color: purple;
-  --jules-tertiary-color: white;
-  --holly-primary-color: white;
-  --holly-secondary-color: green;
-  --holly-tertiary-color: purple;
+  --jules-primary-color: #34baab;
+  --jules-secondary-color: #9a5cff;
+  --holly-primary-color: #d925ca;
+  --holly-secondary-color: #309c3f;
   --michael-primary-color: gray;
   --michael-secondary-color: black;
-  --michael-tertiary-color: blue;
-  --candace-primary-color: gray;
-  --candace-secondary-color: pink;
-  --candace-tertiary-color: white;
+  --candace-primary-color: #332f32;
+  --candace-secondary-color: #ff95e3;
 }
 
 body {
@@ -84,6 +79,15 @@ nav ul li:hover {
   cursor: pointer;
   font-weight: bolder;
   transition: .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  transition: .2s;
 }
 
 /* HOME PAGE STYLING */
@@ -192,4 +196,48 @@ nav ul li:hover {
   right: -10px;
   position: absolute;
   z-index: 999;
+}
+
+/* PATRICK */
+
+.patrick-h2 {
+  color: var(--patrick-primary-color);
+}
+
+.patrick-p {
+  color: var(--patrick-secondary-color);
+  margin-top: 1em;
+}
+
+/* JULES */
+
+.jules-h2 {
+  color: var(--jules-primary-color);
+}
+
+.jules-p {
+  color: var(--jules-secondary-color);
+  margin-top: 1em;
+}
+
+/* HOLLY */
+
+.holly-h2 {
+  color: var(--holly-primary-color);
+}
+
+.holly-p {
+  color: var(--holly-secondary-color);
+  margin-top: 1em;
+}
+
+/* CANDACE */
+
+.candace-h2 {
+  color: var(--candace-primary-color);
+}
+
+.candace-p {
+  color: var(--candace-secondary-color);
+  margin-top: 1em;
 }
