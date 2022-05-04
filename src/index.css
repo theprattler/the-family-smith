@@ -6,19 +6,18 @@
 }
 
 :root {
-  --home-primary-color: gray;
-  --home-secondary-color: black;
-  --home-tertiary-color: green;
+  --home-primary-color: #000000;
+  --home-secondary-color: #3b3b3b;
   --patrick-primary-color: #002868;
   --patrick-secondary-color: #bf0a30;
   --jules-primary-color: #34baab;
   --jules-secondary-color: #9a5cff;
   --holly-primary-color: #d925ca;
   --holly-secondary-color: #309c3f;
-  --michael-primary-color: gray;
-  --michael-secondary-color: black;
+  --michael-primary-color: #5d0d19;
+  --michael-secondary-color: #443033;
   --candace-primary-color: #332f32;
-  --candace-secondary-color: #ff95e3;
+  --candace-secondary-color: #ff70d9;
 }
 
 body {
@@ -49,11 +48,11 @@ h1, h2, h3, nav ul li {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .p-margin-top {
@@ -86,11 +85,20 @@ a {
 }
 
 a:hover {
-  font-weight: bolder;
+  font-weight:500;
   transition: .2s;
 }
 
 /* HOME PAGE STYLING */
+
+.home-h2 {
+  color: var(--home-primary-color);
+}
+
+.home-p {
+  color: var(--home-secondary-color);
+  margin-top: 1em;
+}
 
 .home-bg-slideshow,
 .home-bg-slideshow:after { 
@@ -228,6 +236,16 @@ a:hover {
 
 .holly-p {
   color: var(--holly-secondary-color);
+  margin-top: 1em;
+}
+
+/* MICHAEL */
+.michael-h2 {
+  color: var(--michael-primary-color);
+}
+
+.michael-p {
+  color: var(--michael-secondary-color);
   margin-top: 1em;
 }
 
