@@ -26,11 +26,17 @@ function Home() {
           <li>
             <span>Image 07</span>
           </li>
+          <li>
+            <span>Image 08</span>
+          </li>
+          <li>
+            <span>Image 09</span>
+          </li>
         </ul>
       </div>
       <div className='home-info-container'>
         <div>
-          <h2 className='home-h2'>Greetings and Salutations from The Family Smith!</h2>
+          <h2 className='home-h2'>We are The Family Smith!</h2>
         </div>
         <div>
           <p className='home-p'>
