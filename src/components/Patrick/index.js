@@ -23,9 +23,21 @@ function Patrick() {
           <li>
             <span>Image 06</span>
           </li>
+          <li>
+            <span>Image 07</span>
+          </li>
+          <li>
+            <span>Image 08</span>
+          </li>
+          <li>
+            <span>Image 09</span>
+          </li>
+          <li>
+            <span>Image 010</span>
+          </li>
         </ul>
       </div>
-      <div className='patrick-info-container'>
+      <div className='info-container'>
         <div>
           <h2 className='patrick-h2'>Patrick McCrary</h2>
         </div>

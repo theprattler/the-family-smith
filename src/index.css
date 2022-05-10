@@ -122,7 +122,7 @@ a:hover {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: homeImageAnimation 45s linear infinite 0s;
+  animation: homeImageAnimation 60s linear infinite 0s;
   -webkit-mask-image: -webkit-gradient(linear, right top, 
     left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -132,67 +132,74 @@ a:hover {
 }
 .home-bg-slideshow li:nth-child(2) span { 
   background-image: url(../src/assets/images/home/fam-opry-mills.jpg);
-  animation-delay: 5s; 
+  animation-delay: 6s; 
 }
 .home-bg-slideshow li:nth-child(3) span { 
   background-image: url(../src/assets/images/home/fam-sunroom.jpg);
-  animation-delay: 10s; 
+  animation-delay: 12s; 
 }
 .home-bg-slideshow li:nth-child(4) span { 
   background-image: url(../src/assets/images/home/karate.jpg);
-  animation-delay: 15s; 
+  animation-delay: 18s; 
 }
 .home-bg-slideshow li:nth-child(5) span { 
   background-image: url(../src/assets/images/home/legoland.JPG);
-  animation-delay: 20s; 
+  animation-delay: 24s; 
 }
 .home-bg-slideshow li:nth-child(6) span { 
   background-image: url(../src/assets/images/home/merry-christmas.jpg);
-  animation-delay: 25s; 
-}
-.home-bg-slideshow li:nth-child(7) span { 
-  background-image: url(../src/assets/images/home/nc-move.jpg);
   animation-delay: 30s; 
 }
+.home-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/home/nc-move-2.jpg);
+  animation-delay: 36s; 
+}
 .home-bg-slideshow li:nth-child(8) span { 
-  background-image: url(../src/assets/images/home/opryland-hotel.jpg);
-  animation-delay: 35s; 
+  background-image: url(../src/assets/images/home/backyard.jpg);
+  animation-delay: 42s; 
 }
 .home-bg-slideshow li:nth-child(9) span { 
   background-image: url(../src/assets/images/home/recital-2022.jpg);
-  animation-delay: 40s; 
+  animation-delay: 48s; 
+}
+.home-bg-slideshow li:nth-child(10) span { 
+  background-image: url(../src/assets/images/home/first-4.JPG);
+  animation-delay: 54s; 
 }
 
 .home-bg-slideshow li:nth-child(2) div { 
-  animation-delay: 5s; 
+  animation-delay: 6s; 
 }
 .home-bg-slideshow li:nth-child(3) div { 
-  animation-delay: 10s; 
+  animation-delay: 12s; 
 }
 .home-bg-slideshow li:nth-child(4) div { 
-  animation-delay: 15s; 
+  animation-delay: 18s; 
 }
 .home-bg-slideshow li:nth-child(5) div { 
-  animation-delay: 20s; 
+  animation-delay: 24s; 
 }
 .home-bg-slideshow li:nth-child(6) div { 
-  animation-delay: 25s; 
-}
-.home-bg-slideshow li:nth-child(7) div { 
   animation-delay: 30s; 
 }
+.home-bg-slideshow li:nth-child(7) div { 
+  animation-delay: 36s; 
+}
 .home-bg-slideshow li:nth-child(8) div { 
-  animation-delay: 35s; 
+  animation-delay: 42s; 
 }
 .home-bg-slideshow li:nth-child(9) div { 
-  animation-delay: 40s; 
+  animation-delay: 48s; 
+}
+.home-bg-slideshow li:nth-child(10) div { 
+  animation-delay: 54s; 
 }
 
 @keyframes homeImageAnimation { 
   0% { opacity: 0 }
-  5.55% { opacity: 1 }
-  11.11% { opacity: 1 }
-  16.665% { opacity: 0 }
+  5% { opacity: 1 }
+  10% { opacity: 1 }
+  15% { opacity: 0 }
   100% { opacity: 0 }
 }
 
@@ -200,7 +207,7 @@ a:hover {
 	opacity: 1;
 }
 
-.home-info-container {
+.info-container {
   position: absolute;
   width: 35%;
   height: 90%;
@@ -214,7 +221,7 @@ a:hover {
   padding-left: 3em;
 }
 
-.home-info-container::before {
+.info-container::before {
   right: -10px;
   position: absolute;
   z-index: 999;
@@ -253,7 +260,7 @@ a:hover {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: patrickImageAnimation 36s linear infinite 0s;
+  animation: patrickImageAnimation 60s linear infinite 0s;
   -webkit-mask-image: -webkit-gradient(linear, right top, 
     left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -266,20 +273,36 @@ a:hover {
   animation-delay: 6s; 
 }
 .patrick-bg-slideshow li:nth-child(3) span { 
-  background-image: url(../src/assets/images/patrick/patrick-books.jpg);
+  background-image: url(../src/assets/images/patrick/p-playground.JPG);
   animation-delay: 12s; 
 }
 .patrick-bg-slideshow li:nth-child(4) span { 
-  background-image: url(../src/assets/images/patrick/patrick-framed.jpg);
+  background-image: url(../src/assets/images/patrick/p-sunglasses.JPG);
   animation-delay: 18s; 
 }
 .patrick-bg-slideshow li:nth-child(5) span { 
-  background-image: url(../src/assets/images/patrick/patrick-ice-cream.jpg);
+  background-image: url(../src/assets/images/patrick/patrick-baby-2.jpg);
   animation-delay: 24s; 
 }
 .patrick-bg-slideshow li:nth-child(6) span { 
-  background-image: url(../src/assets/images/patrick/patrick-marble-run.jpg);
+  background-image: url(../src/assets/images/patrick/patrick-books.jpg);
   animation-delay: 30s; 
+}
+.patrick-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/patrick/patrick-duplos.JPG);
+  animation-delay: 36s; 
+}
+.patrick-bg-slideshow li:nth-child(8) span { 
+  background-image: url(../src/assets/images/patrick/patrick-framed.jpg);
+  animation-delay: 42s; 
+}
+.patrick-bg-slideshow li:nth-child(9) span { 
+  background-image: url(../src/assets/images/patrick/patrick-ice-cream.jpg);
+  animation-delay: 48s; 
+}
+.patrick-bg-slideshow li:nth-child(10) span { 
+  background-image: url(../src/assets/images/patrick/patrick-marble-run.jpg);
+  animation-delay: 54s; 
 }
 
 .patrick-bg-slideshow li:nth-child(2) div { 
@@ -297,37 +320,25 @@ a:hover {
 .patrick-bg-slideshow li:nth-child(6) div { 
   animation-delay: 30s; 
 }
+.patrick-bg-slideshow li:nth-child(7) div { 
+  animation-delay: 36s; 
+}
+.patrick-bg-slideshow li:nth-child(8) div { 
+  animation-delay: 42s; 
+}
+.patrick-bg-slideshow li:nth-child(9) div { 
+  animation-delay: 48s; 
+}
+.patrick-bg-slideshow li:nth-child(10) div { 
+  animation-delay: 54s; 
+}
 
 @keyframes patrickImageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
-  8.33% { opacity: 1; animation-timing-function: ease-out; }
-  16.66% { opacity: 1 }
-  25% { opacity: 0 }
+  5% { opacity: 1; animation-timing-function: ease-out; }
+  10% { opacity: 1 }
+  15% { opacity: 0 }
   100% { opacity: 0 }
-}
-
-.no-cssanimations .home-bg-slideshow li span{
-	opacity: 1;
-}
-
-.patrick-info-container {
-  position: absolute;
-  width: 35%;
-  height: 90%;
-  bottom: 0px;
-  left: 0px;
-  z-index: 1000;
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 3em;
-}
-
-.patrick-info-container::before {
-  right: -10px;
-  position: absolute;
-  z-index: 999;
 }
 
 /* JULES */
@@ -363,7 +374,7 @@ a:hover {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: julesImageAnimation 42s linear infinite 0s;
+  animation: julesImageAnimation 60s linear infinite 0s;
   -webkit-mask-image: -webkit-gradient(linear, right top, 
     left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -395,6 +406,18 @@ a:hover {
   background-image: url(../src/assets/images/juliet/kids-plane.jpg);
   animation-delay: 36s; 
 }
+.jules-bg-slideshow li:nth-child(8) span { 
+  background-image: url(../src/assets/images/juliet/j-outside.jpg);
+  animation-delay: 42s; 
+}
+.jules-bg-slideshow li:nth-child(9) span { 
+  background-image: url(../src/assets/images/juliet/p-j-school-lunch.JPG);
+  animation-delay: 48s; 
+}
+.jules-bg-slideshow li:nth-child(10) span { 
+  background-image: url(../src/assets/images/juliet/j-cakepop.jpg);
+  animation-delay: 54s; 
+}
 
 .jules-bg-slideshow li:nth-child(2) div { 
   animation-delay: 6s; 
@@ -414,37 +437,22 @@ a:hover {
 .jules-bg-slideshow li:nth-child(7) div { 
   animation-delay: 36s; 
 }
+.jules-bg-slideshow li:nth-child(8) div { 
+  animation-delay: 42s; 
+}
+.jules-bg-slideshow li:nth-child(9) div { 
+  animation-delay: 48s; 
+}
+.jules-bg-slideshow li:nth-child(9) div { 
+  animation-delay: 54s; 
+}
 
 @keyframes julesImageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
-  8% { opacity: 1; animation-timing-function: ease-out; }
-  17% { opacity: 1 }
-  24% { opacity: 0 }
+  5% { opacity: 1; animation-timing-function: ease-out; }
+  10% { opacity: 1 }
+  15% { opacity: 0 }
   100% { opacity: 0 }
-}
-
-.no-cssanimations .home-bg-slideshow li span{
-	opacity: 1;
-}
-
-.jules-info-container {
-  position: absolute;
-  width: 35%;
-  height: 90%;
-  bottom: 0px;
-  left: 0px;
-  z-index: 1000;
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 3em;
-}
-
-.jules-info-container::before {
-  right: -10px;
-  position: absolute;
-  z-index: 999;
 }
 
 /* HOLLY */
@@ -480,7 +488,7 @@ a:hover {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: hollyImageAnimation 30s linear infinite 0s;
+  animation: hollyImageAnimation 60s linear infinite 0s;
   -webkit-mask-image: -webkit-gradient(linear, right top, 
     left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -504,6 +512,26 @@ a:hover {
   background-image: url(../src/assets/images/holly/holls-twin-peaks.jpg);
   animation-delay: 24s; 
 }
+.holly-bg-slideshow li:nth-child(6) span { 
+  background-image: url(../src/assets/images/holly/h-ahh.jpg);
+  animation-delay: 30s; 
+}
+.holly-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/holly/h-glamour.jpg);
+  animation-delay: 36s; 
+}
+.holly-bg-slideshow li:nth-child(8) span { 
+  background-image: url(../src/assets/images/holly/holls-birds.jpg);
+  animation-delay: 42s; 
+}
+.holly-bg-slideshow li:nth-child(9) span { 
+  background-image: url(../src/assets/images/holly/j-h.jpg);
+  animation-delay: 48s; 
+}
+.holly-bg-slideshow li:nth-child(10) span { 
+  background-image: url(../src/assets/images/holly/h-eyebrows.jpg);
+  animation-delay: 54s; 
+}
 
 .holly-bg-slideshow li:nth-child(2) div { 
   animation-delay: 6s; 
@@ -517,37 +545,28 @@ a:hover {
 .holly-bg-slideshow li:nth-child(5) div { 
   animation-delay: 24s; 
 }
+.holly-bg-slideshow li:nth-child(6) div { 
+  animation-delay: 30s; 
+}
+.holly-bg-slideshow li:nth-child(7) div { 
+  animation-delay: 36s; 
+}
+.holly-bg-slideshow li:nth-child(8) div { 
+  animation-delay: 42s; 
+}
+.holly-bg-slideshow li:nth-child(9) div { 
+  animation-delay: 48s; 
+}
+.holly-bg-slideshow li:nth-child(10) div { 
+  animation-delay: 54s; 
+}
 
 @keyframes hollyImageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
-  10% { opacity: 1; animation-timing-function: ease-out; }
-  20% { opacity: 1 }
-  30% { opacity: 0 }
+  5% { opacity: 1; animation-timing-function: ease-out; }
+  10% { opacity: 1 }
+  15% { opacity: 0 }
   100% { opacity: 0 }
-}
-
-.no-cssanimations .home-bg-slideshow li span{
-	opacity: 1;
-}
-
-.holly-info-container {
-  position: absolute;
-  width: 35%;
-  height: 90%;
-  bottom: 0px;
-  left: 0px;
-  z-index: 1000;
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 3em;
-}
-
-.holly-info-container::before {
-  right: -10px;
-  position: absolute;
-  z-index: 999;
 }
 
 /* MICHAEL */
@@ -560,6 +579,109 @@ a:hover {
   margin-top: 1em;
 }
 
+.michael-bg-slideshow,
+.michael-bg-slideshow:after { 
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+.michael-bg-slideshow li span { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  animation: michaelImageAnimation 60s linear infinite 0s;
+  -webkit-mask-image: -webkit-gradient(linear, right top, 
+    left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.michael-bg-slideshow li:nth-child(1) span { 
+  background-image: url(../src/assets/images/michael/h-m-epcot.jpg) 
+}
+.michael-bg-slideshow li:nth-child(2) span { 
+  background-image: url(../src/assets/images/michael/holls-michael-date.jpg);
+  animation-delay: 6s; 
+}
+.michael-bg-slideshow li:nth-child(3) span { 
+  background-image: url(../src/assets/images/michael/jules-michael-bed.jpg);
+  animation-delay: 12s; 
+}
+.michael-bg-slideshow li:nth-child(4) span { 
+  background-image: url(../src/assets/images/michael/m-h-ds.jpg);
+  animation-delay: 18s; 
+}
+.michael-bg-slideshow li:nth-child(5) span { 
+  background-image: url(../src/assets/images/michael/m-h-zoo.jpg);
+  animation-delay: 24s; 
+}
+.michael-bg-slideshow li:nth-child(6) span { 
+  background-image: url(../src/assets/images/michael/michael-gorilla.jpg);
+  animation-delay: 30s; 
+}
+.michael-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/michael/wedding.jpg);
+  animation-delay: 36s; 
+}
+.michael-bg-slideshow li:nth-child(8) span { 
+  background-image: url(../src/assets/images/michael/h-m-opry.JPG);
+  animation-delay: 42s; 
+}
+.michael-bg-slideshow li:nth-child(9) span { 
+  background-image: url(../src/assets/images/michael/p-m-mk.JPG);
+  animation-delay: 48s; 
+}
+.michael-bg-slideshow li:nth-child(10) span { 
+  background-image: url(../src/assets/images/michael/m-impact.jpg);
+  animation-delay: 54s; 
+}
+
+.michael-bg-slideshow li:nth-child(2) div { 
+  animation-delay: 6s; 
+}
+.michael-bg-slideshow li:nth-child(3) div { 
+  animation-delay: 12s; 
+}
+.michael-bg-slideshow li:nth-child(4) div { 
+  animation-delay: 18s; 
+}
+.michael-bg-slideshow li:nth-child(5) div { 
+  animation-delay: 24s; 
+}
+.michael-bg-slideshow li:nth-child(6) div { 
+  animation-delay: 30s; 
+}
+.michael-bg-slideshow li:nth-child(7) div { 
+  animation-delay: 36s; 
+}
+.michael-bg-slideshow li:nth-child(8) div { 
+  animation-delay: 42s; 
+}
+.michael-bg-slideshow li:nth-child(9) div { 
+  animation-delay: 48s; 
+}
+.michael-bg-slideshow li:nth-child(10) div { 
+  animation-delay: 54s; 
+}
+
+@keyframes michaelImageAnimation { 
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  5% { opacity: 1; animation-timing-function: ease-out; }
+  10% { opacity: 1 }
+  15% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
 /* CANDACE */
 
 .candace-h2 {
@@ -569,4 +691,86 @@ a:hover {
 .candace-p {
   color: var(--candace-secondary-color);
   margin-top: 1em;
+}
+
+.candace-bg-slideshow,
+.candace-bg-slideshow:after { 
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+.candace-bg-slideshow li span { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  animation: candaceImageAnimation 42s linear infinite 0s;
+  -webkit-mask-image: -webkit-gradient(linear, right top, 
+    left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.candace-bg-slideshow li:nth-child(1) span { 
+  background-image: url(../src/assets/images/candace/candace-film.jpg) 
+}
+.candace-bg-slideshow li:nth-child(2) span { 
+  background-image: url(../src/assets/images/candace/candace-napping.JPG);
+  animation-delay: 6s; 
+}
+.candace-bg-slideshow li:nth-child(3) span { 
+  background-image: url(../src/assets/images/candace/c-blanket.jpg);
+  animation-delay: 12s; 
+}
+.candace-bg-slideshow li:nth-child(4) span { 
+  background-image: url(../src/assets/images/candace/c-pillow.jpg);
+  animation-delay: 18s; 
+}
+.candace-bg-slideshow li:nth-child(5) span { 
+  background-image: url(../src/assets/images/candace/c-stinky.jpg);
+  animation-delay: 24s; 
+}
+.candace-bg-slideshow li:nth-child(6) span { 
+  background-image: url(../src/assets/images/candace/c-yawn.jpg);
+  animation-delay: 30s; 
+}
+.candace-bg-slideshow li:nth-child(7) span { 
+  background-image: url(../src/assets/images/candace/candace-study.jpg);
+  animation-delay: 36s; 
+}
+
+.candace-bg-slideshow li:nth-child(2) div { 
+  animation-delay: 6s; 
+}
+.candace-bg-slideshow li:nth-child(3) div { 
+  animation-delay: 12s; 
+}
+.candace-bg-slideshow li:nth-child(4) div { 
+  animation-delay: 18s; 
+}
+.candace-bg-slideshow li:nth-child(5) div { 
+  animation-delay: 24s; 
+}
+.candace-bg-slideshow li:nth-child(6) div { 
+  animation-delay: 30s; 
+}
+.candace-bg-slideshow li:nth-child(7) div { 
+  animation-delay: 36s; 
+}
+
+@keyframes candaceImageAnimation { 
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  7.14% { opacity: 1; animation-timing-function: ease-out; }
+  14.28% { opacity: 1 }
+  21.42% { opacity: 0 }
+  100% { opacity: 0 }
 }

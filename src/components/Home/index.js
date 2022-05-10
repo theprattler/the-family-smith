@@ -32,9 +32,12 @@ function Home() {
           <li>
             <span>Image 09</span>
           </li>
+          <li>
+            <span>Image 10</span>
+          </li>
         </ul>
       </div>
-      <div className='home-info-container'>
+      <div className='info-container'>
         <div>
           <h2 className='home-h2'>We are The Family Smith!</h2>
         </div>

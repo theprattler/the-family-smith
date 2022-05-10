@@ -26,9 +26,18 @@ function Juliet() {
           <li>
             <span>Image 07</span>
           </li>
+          <li>
+            <span>Image 08</span>
+          </li>
+          <li>
+            <span>Image 09</span>
+          </li>
+          <li>
+            <span>Image 10</span>
+          </li>
         </ul>
       </div>
-      <div className='jules-info-container'>
+      <div className='info-container'>
         <div>
           <h2 className='jules-h2'>Juliet Monét</h2>
         </div>
