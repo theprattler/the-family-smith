@@ -43,7 +43,7 @@ function Home() {
         </div>
         <div>
           <p className='home-p'>
-            We are but four (plus one) stinky people living in Clayton, North Carolina. Michael and Holly married in 2008, and it has been nothing but pure marital bliss ever since. Two stinky but precious kids later, and a dang rotten cat to boot, we blaze the trail before us, seeking wild adventure and loving embraces. Want to get to know us better? Explore each of our pages.
+            Welcome to our little corner of the internet! The quick summary: We are four humans and a furry feline who moved to Clayton, North Carolina, in 2020 after spending our first twelve years together in the Nashville, Tennessee, area. If that has whet your appetite (which of course it has), then feel free to explore each or our pages to get to know us better. Leave us a note in our Guestbook to tell us you were here. Thanks for spending some time with us!
           </p>
         </div>
       </div>
