@@ -43,7 +43,7 @@ function Home() {
         </div>
         <div>
           <p className='home-p'>
-            Welcome to our little corner of the internet! The quick summary: We are four humans and a furry feline who moved to Clayton, North Carolina, in 2020 after spending our first twelve years together in the Nashville, Tennessee, area. If that has whet your appetite (which of course it has), then feel free to explore each or our pages to get to know us better. Leave us a note in our Guestbook to tell us you were here. Thanks for spending some time with us!
+            Welcome to our little corner of the internet! The quick summary: We are four humans and a furry feline who moved to Clayton, North Carolina, in 2020 after spending our first twelve years together in the Nashville, Tennessee, area. If that has whet your appetite (which of course it has), then feel free to explore each or our pages to get to know us better. Thanks for spending some time with us!
           </p>
         </div>
       </div>
